@@ -48,7 +48,7 @@ namespace Home_work_05._04._2023
         static void Main(string[] args)
     {
         
-            var PersonList = Ask(3);
+            var PersonList = Ask(5);
             PersonList.Sort(Person.ComparePerson);
             foreach (Person person in PersonList)
             {
